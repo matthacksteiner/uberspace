@@ -41,3 +41,10 @@ cd /var/www/virtual/USERNAME
 ln -s html/domain.de domain.de
 ln -s html/domain.de www.domain.de
 ```
+
+---
+
+## For Kirby CMS
+
+ln to "public" folder
+check .htaccess in public folder
