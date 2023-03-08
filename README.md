@@ -1,7 +1,9 @@
 # uberspace
+
 common uberspace tasks
 
 ## Mail
+
 `uberspace mail domain list`
 
 `uberspace mail domain add domain.de`
@@ -15,25 +17,27 @@ common uberspace tasks
 `uberspace mail user list`
 
 ---
+
 ## Multiple Domains
 
-### Domain Setup
+### 1. Domain Setup
 
 `uberspace web domain add domain.de`
 `uberspace web domain add www.domain.de`
 
 `uberspace web domain list`
 
-### Create Folder
+### 2. Create Folder
 
-````
+```
 cd /var/www/virtual/USERNAME/html
 mkdir domain.de
-````
-### Create Links
-````
+```
+
+### 3. Create Links
+
+```
 cd /var/www/virtual/USERNAME
 ln -s html/domain.de domain.de
 ln -s html/domain.de www.domain.de
-````
-
+```
