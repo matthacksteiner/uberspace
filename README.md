@@ -46,5 +46,5 @@ ln -s html/domain.de www.domain.de
 
 ## For Kirby CMS
 
-ln to "public" folder
+set ln to "public" folder
 check .htaccess in public folder if RewriteBase / is correct
