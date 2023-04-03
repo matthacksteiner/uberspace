@@ -26,6 +26,7 @@ common uberspace tasks
 `uberspace web domain add www.domain.de`
 
 `uberspace web domain list`
+`uberspace web domain remove domain.de`
 
 ### 2. Create Folder
 
